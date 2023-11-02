@@ -10,3 +10,4 @@ Para executar o script de testes adicionando usuários virtuais, é preciso pass
 docker run --rm -i -v ${PWD}/scripts:/scripts grafana/k6 run --vus 10 --duration 30s /scripts/script.js
 ```
 
+Os resultados dos testes de performance, realizados em uma máquina pessoal, ficam limitados a essa máquina, caso seja necessário confirmar que os testes podem ser extrapolados para outro ambiente, é preciso realizá-los em outro ambiente.
